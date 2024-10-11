@@ -1,0 +1,50 @@
+DOM
+
+*DOM is the tree structure of html document.
+*DOM is a application programming interface.
+*by using dom we can easilt read, access and update contents in document.
+
+
+3 different ways to access dom by using javascript
+
+1.getElementById()
+   - change contents by using its id name.
+   -innerHTML:- to change the text contents
+   -style:- to change the css property
+
+2.getElementByClassName()
+   -change contents by using class name.
+   -we can give same class as multiple tags
+   
+3.getElentByTagName()
+  -change contents by using its tag name.
+  -you must give its index number to access the html element.
+
+4.getElementByName()
+  -change the content by using its name.
+  -if have multiple no.of same name elements, you must give its index number.
+
+5.getElementByCss selector()
+  -access the dom elements by css selector
+  -it have two choices:-
+       *querySelector:-returns only one result
+       *querySelectorAll:-returns multiple result
+
+  -different css selectors are:-by idname,class and tag name.
+
+
+  Event
+
+  *to create an Event
+
+  Event handler
+    -an object can only one event handler
+
+  Event Listener
+    -we can add multiple event listeners at the same event.
+    -it has 2 arguments:- event, function
+    -event listener is a function. That function will trigger when a particular function is done.
+
+  Event object
+    -The argument of a function is called event object.
+    
